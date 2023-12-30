@@ -1,0 +1,102 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 50px;
+    /* display: inline-block;
+    border: 2px solid black; */
+}
+
+#container{
+    width: 700px;
+    height: 300px;
+
+    /* flex items will try to stay in containers as much as possible */
+    display: flex;
+
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    flex-direction: column;
+    flex-direction: row;
+
+    /* justify-content is used to adjust elements on main axis */
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    
+    /* flex-wrap: wrap; */
+    
+    /* align-items is used to adjust elements on cross axis */
+    /* It is applied on container */
+    align-items: center;
+    align-items: flex-start;
+    
+    /* align-content is used to adjust space between and around the elements on cross axis */
+    /* align-content: center;
+    align-content: flex-end;
+    align-content: flex-start; */
+}
+
+#box1{
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+#box2{
+    background-color: pink;
+    height: 200px;
+    /* align-self: flex-end; */
+    /* flex-shrink: 1; */
+    flex-grow: 2;
+}
+
+#box3{
+    background-color: darkkhaki;
+    height: 75px;
+}
+
+#box4{
+    background-color: indianred;
+}
+
+#box5{
+    background-color: slateblue;
+    /* It is applied on individual flex item */
+    /* It has higher priority than align-items */
+    /* align-self: flex-end; */
+}
+
+div{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+}
+
+@media (width : 600px) {
+    div{
+        background-color: red;
+    }
+}
+
+@media (min-width : 600px) {
+    div{
+        background-color: green;
+    }
+}
+
+@media (max-width : 600px) {
+    div{
+        background-color: blue;
+    }
+}
+
+@media (min-width : 200px) and (max-width : 300px)  {
+    div{
+        background-color: yellow;
+    }
+}
