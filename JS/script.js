@@ -116,8 +116,40 @@
 //     console.log(num,"is not a multiple of 5");
 // }
 
-let s=0;
-for(let i=1;i<=5;i++) {
-    s=s+i;
-}
-console.log("Sum= ",s);
+// let s=0;
+// for(let i=1;i<=5;i++) {
+//     s=s+i;
+// }
+// console.log("Sum= ",s);
+
+// let i=1;
+// while(i<=5) {
+//     console.log("i=",i);
+//     i++;
+// }
+
+// let i=1;
+// do {
+//     console.log("i=",i);
+//     i++;
+// }while(i<=5);
+
+// for-of loop is used in strings and arrays
+// let str="SmitAnkhiwala";
+// let length=0;
+// for(let i of str) {
+//     console.log("i=",i);
+//     length++;
+// }
+// console.log("string length= ",length);
+
+// for-in loop is used in objects and arrays
+// let student= {
+//     name: "Smit Ankhiwala",
+//     age: 20,
+//     cgpa: 7.5,
+//     isPass: true
+// }
+// for(let key in student) {
+//     console.log("keys=",key," value=",student[key]);
+// }
