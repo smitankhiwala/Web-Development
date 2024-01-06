@@ -42,14 +42,14 @@ for(let key in student) {
 }
 
 // practice question
-// let gameNum=28;
-// let userNum=prompt("Guess the game number: ");
+let gameNum=28;
+let userNum=prompt("Guess the game number: ");
 
-// while(userNum!=gameNum) {
-//     userNum=prompt("You entered wrong number. Guess again: ");
-// }
+while(userNum!=gameNum) {
+    userNum=prompt("You entered wrong number. Guess again: ");
+}
 
-// console.log("Congratulations, you entered the right number");
+console.log("Congratulations, you entered the right number");
 
 // Strings
 str="SmitAnkhiwala";
