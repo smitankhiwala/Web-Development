@@ -77,6 +77,3 @@ console.log(student.fullName);
 console.log(typeof student.isPass);
 
 // We can't the value of const variables but we can change the key value of const object
-
-
-
